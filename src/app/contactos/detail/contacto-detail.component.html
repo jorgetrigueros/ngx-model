@@ -1,0 +1,14 @@
+<header class="card-header">
+
+</header>
+<div class="card-content">
+    <div class="content">
+        <p class="card-header-title">
+            <span class="title">{{contacto.nombre}} {{contacto.apellidos}}</span>
+        </p>
+        <span class="subtitle">{{contacto.fechaNacimiento}}</span>
+    </div>
+</div>
+<footer class="card-footer">
+    <a href="#" class="card-footer-item" (click)="eliminarContacto(contacto.id)">Eliminar</a>
+</footer>

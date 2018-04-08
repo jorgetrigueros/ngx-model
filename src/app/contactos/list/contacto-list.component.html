@@ -1,0 +1,7 @@
+<h1 class="title">
+    Listado contactos
+</h1>
+
+<div class="card" *ngFor="let contacto of _contacto.contacto$ | async;">
+    <app-contacto-detail [contacto]="contacto"></app-contacto-detail>
+</div>
